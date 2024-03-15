@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Success</title>
+</head>
+<body>
+    <h2>You are successfully registered, {{ username }}!</h2>
+    <!-- Ensure that the namespace 'main' is used -->
+    <p><a href="{% url 'main:login' %}">Login</a></p>
+</body>
+</html>

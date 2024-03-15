@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Library Management System</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Library Management System</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="{% url 'main:register' %}">Register</a></li>
+            <li><a href="{% url 'main:login' %}">Login</a></li>
+            <!-- Remove the logout link -->
+        </ul>
+    </nav>
+    <main>
+        <!-- Your main content here -->
+        <p>This is the main page content.</p>
+    </main>
+    <footer>
+        <p>Library Management System - &copy; 2024</p>
+    </footer>
+</body>
+</html>
